@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func calc(x int, y int) (int, int) {
-	var out = x + y
-	var out2 = x - y
-	return out, out2
+func calc(x int, y int) (out1, out2 int) {
+	out1 = x + y
+	out2 = x - y
+	return
 }
 
 func main() {
